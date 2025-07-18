@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <ul class="navbar">
+        <a class="navlogo" href="index.html"><img src="resources/g110.png" alt="logo"></img></a>
+        <div class="searchcontainer">
+            <input class="searchbar" type="text" placeholder="Buscar.." >
+            <img id="searchimg" src="resources/icons8-search-30.png" alt="search icon">
+        </div>
+        <a class="navbartext" href="aboutus.html">Sobre Nosotros</a>
+        <a class="navbartext" href="ingresar.html">Ingresar</a>
+        <a class="navbartext" href="registrarse.html">Registrarse</a>
+        <a href="carrito.html"><img class="navcart" src="resources/icons8-shopping-cart-96.png" alt="shoppingCart"></a>
+    </ul>
+
+    <div  class="registro">
+        <h2>Ingresar</h2>
+    </div>
+    <div class="bgbox2">
+        <form action="signin">
+            <div class="campos">
+                <label class="formulario" for="usario"><b>Usuario</b></label>
+                <input class="formulario" type="text" placeholder="Ingresa tu usuario" name="usuario" required>
+
+                <label class="formulario" for="contra"><b>Contraseña</b></label>
+                <input class="formulario" type="password" placeholder="Ingresa tu contraseña" name="contra" required>
+                
+                <div class="form-check, formulario">
+                    <input class="form-check-input" type="checkbox" value="" id="" />
+                    <label class="form-check-label" for=""> Recordar esta cuenta </label>
+                </div>
+
+                <button class="formulario" type="submit">Ingresar</button>
+            </div>
+        </form>
+    </div>
+    <div  class="formlink">
+        <p>¿Aun no tienes una cuenta? <a href="registrarse.html">Registrate</a></p>
+    </div>
+
+    <footer>
+        <div class="c"></div>
+        <div class="y"></div>
+        <div class="m"></div>
+        <div class="footersection1">
+            <h3>Contactanos</h3>
+            <br>
+            <p>Tel. 811 123 2345</p>
+            <p>contacto@artisanprints.com</p>
+            <br>
+            <p>Calle Lago Lorem, Colonia Ipsum <br> Sección Benito Juarez. <br>Monterrey, NL, México.</p>
+        </div>
+        <div class="footersection2">
+            <img src="resources/g110.png" alt="Logo de Artisan Prints">
+        </div>
+    </footer>
+</body>
+</html>
