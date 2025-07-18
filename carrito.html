@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <ul class="navbar">
+        <a class="navlogo" href="index.html"><img src="resources/g110.png" alt="logo"></img></a>
+        <div class="searchcontainer">
+            <input class="searchbar" type="text" placeholder="Buscar.." >
+            <img id="searchimg" src="resources/icons8-search-30.png" alt="search icon">
+        </div>
+        <a class="navbartext" href="aboutus.html">Sobre Nosotros</a>
+        <a class="navbartext" href="ingresar.html">Ingresar</a>
+        <a class="navbartext" href="registrarse.html">Registrarse</a>
+        <a href="carrito.html"><img class="navcart" src="resources/icons8-shopping-cart-96.png" alt="shoppingCart"></a>
+    </ul>
+    <ul class="categorias">
+        <a class="categoriastext" href="">Stickers</a>
+        <a class="categoriastext" href="">Prints y Posters</a>
+        <a class="categoriastext" href="">Figuras</a>
+        <a class="categoriastext" href="">Ropa y Accesorios</a>
+        <a class="categoriastext" href="">Papelería</a>
+        <a class="categoriastext" href="">Regalos</a>
+    </ul>
+
+    <div class="paginacarrito">
+        <div class="listacarrito">
+            <h2>Carrito de compras</h2>
+            <hr>
+            <div>
+                <div class="cartrow">
+                    <div class="imagen">
+                        <img src="resources/No244 drinkPNG_300x424.png" alt="">
+                    </div>
+                    <div class="nombre">
+                        <div class="prodart">
+                            <h4>Hoja para colorear Hada</h4>
+                            <p>Monvet</p>
+                        </div>
+                    </div>
+                    <div class="preciounit">
+                        <div class="contpreciounit"><p>$120</p></div>
+                    </div>
+                    <div class="eliminarcart">
+                        <div class="conteliminar">
+                            <button class="eliminar">Eliminar</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div> 
+        </div>
+
+        <div class="totalcarrito">
+            <div class="totalcarritocontent">
+                <h3>Resumen de compra</h3>
+                <hr class="lighthr">
+                <div class="totalcompra">
+                    <div class="a">
+                        <h4>Total:</h4>
+                    </div>
+                    <div class="b">
+                        <p>$120.00 MXN</p>
+                    </div>
+                </div>
+                <br>
+                <h4>Opciones de envío</h4>
+                <select name="openvio" id="openvio">
+                    <option value="">Envío estándar - $80</option>
+                    <option value="">Envío express - $120</option>
+                </select>
+                <br>
+                <br>
+                <h4>Código de regalo</h4>
+                <input placeholder="XXXX-XXXX-XXXX-XXXX" type="text" id="openvio">
+                <br>
+                <br>
+                <hr>
+                <div class="totalcompra">
+                    <h4 class="a">Precio total:</h4>
+                    <p class="b">$200</p>
+                </div>
+                <button class="btnpago">Proceder al pago</button>
+                </div>
+        </div>
+
+    </div>
+    
+    <footer>
+        <div class="c"></div>
+        <div class="y"></div>
+        <div class="m"></div>
+        <div class="footersection1">
+            <h3>¡Contactanos!</h3>
+            <br>
+            <p>Tel. 811 123 2345</p>
+            <p>contacto@artisanprints.com</p>
+            <br>
+            <p>Calle Lago Lorem, Colonia Ipsum <br> Sección Benito Juarez. <br>Monterrey, NL, México.</p>
+        </div>
+        <div class="footersection2">
+            <img src="resources/g110.png" alt="Logo de Artisan Prints">
+        </div>
+    </footer>
+</body>
+</html>
